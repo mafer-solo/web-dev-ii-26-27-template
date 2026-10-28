@@ -1,0 +1,25 @@
+
+/* Set the basic page size */
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Remove the default body margin */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Allow React to fill the page */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
